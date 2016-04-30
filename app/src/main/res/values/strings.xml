@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TankApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- BEGIN : Strings Start screen -->
+    <string name="lblStart1">Welcome</string>
+    <string name="lblStart2">To</string>
+    <string name="lblStart3">Tank app</string>
+    <string name="btnStart1">New tank check</string>
+    <!-- END : Strings Start screen -->
+
+
+    <!-- BEGIN : Strings Customer -->
+    <string name="txtCustomer1">First Name</string>
+    <string name="txtCustomer2">Last Name</string>
+    <string name="txtCustomer3">Phone</string>
+    <string name="txtCustomer4">E-mail</string>
+    <string name="txtCustomer5">Address</string>
+    <!-- END : Strings Customer -->
+
+
+    <!-- BEGIN : Strings Checklist -->
+    <string name="cboxCheck1">Check 1</string>
+    <string name="cboxCheck2">Check 2</string>
+    <string name="cboxCheck3">Check 3</string>
+    <string name="cboxCheck4">Check 4</string>
+    <string name="cboxCheck5">Check 5</string>
+    <string name="cboxCheck6">Check 6</string>
+    <string name="cboxCheck7">Check 7</string>
+    <!-- END : Strings Checklist -->
+
+    <string name="uc">Under construction</string>
+    <string name="title_activity_attest">AttestActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

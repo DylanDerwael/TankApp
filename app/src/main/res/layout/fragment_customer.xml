@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.derwael.tankapp.CustomerFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="303dp">
+
+        <!-- BEGIN : First Name Row -->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/txtCustomer1"
+            android:ems="10"
+            android:id="@+id/txtFirstName"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true" />
+        <!-- END : First Name Row -->
+
+        <!-- BEGIN : Last Name Row -->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/txtCustomer2"
+            android:ems="10"
+            android:id="@+id/txtlastName"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txtFirstName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+        <!-- END : Last Name Row -->
+
+        <!-- BEGIN : Phone Row -->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/tctPhone"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/txtlastName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/txtCustomer3" />
+        <!-- END : Phone Row -->
+
+        <!-- BEGIN : Email Row -->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtEmail"
+            android:layout_below="@+id/tctPhone"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/txtCustomer4" />
+        <!-- END : Email Row -->
+
+        <!-- BEGIN : Address Row -->
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:hint="@string/txtCustomer5" />
+        <!-- BEGIN : Address Row -->
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
